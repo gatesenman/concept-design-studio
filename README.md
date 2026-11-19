@@ -17,24 +17,22 @@
 
 ## 从源码运行
 
-源码在 `src/`。本仓库不包含安装包。
+源码在仓库根目录。本仓库不包含安装包。
 
 ```bash
-cd src
 npm install
 npm run build
 npm start            # Electron
 npm run dev          # Vite 开发
 npm test             # Playwright（Linux 可用 xvfb-run -a npm test）
 ```
-
 ## 文档
 
-- [源码 README](src/README.md)
+- [源码 README](README.original.md)
 
 ## 许可证
 
-`src/package.json` 声明为 MIT。仓库根目录未附带 LICENSE 文件。
+`package.json` 声明为 MIT。仓库根目录未附带 LICENSE 文件。
 
 ---
 
@@ -59,22 +57,20 @@ npm test             # Playwright（Linux 可用 xvfb-run -a npm test）
 
 ## Getting started
 
-Source is under `src/`. This repository does not include installers.
+Source is at the repository root. This repository does not include installers.
 
 ```bash
-cd src
 npm install
 npm run build
 npm start            # Electron
 npm run dev          # Vite dev server
 npm test             # Playwright (on Linux: xvfb-run -a npm test)
 ```
-
 ## Documentation
 
-- [源码 README](src/README.md)
+- [源码 README](README.original.md)
 
 ## License
 
-`src/package.json` declares MIT. There is no LICENSE file at the repository root.
+`package.json` declares MIT. There is no LICENSE file at the repository root.
 
